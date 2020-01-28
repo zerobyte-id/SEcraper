@@ -1,7 +1,7 @@
 #!/bin/bash
 
 QUERY="${1}"
-FILESAVE="se-craper-result.txt"
+FILESAVE="secraper-result.txt"
 
 echo '  ___ ___                            ';
 echo ' / __| __|__ _ _ __ _ _ __  ___ _ _  ';
@@ -57,7 +57,7 @@ do
 	done
 	if [[ ! -n ${PAGE} ]]; then
 		break
-	elif [[ ${PAGE} -gt ${LASTPAGE} ]]; then
+	elif [[ ${PAGE} -lt ${LASTPAGE} ]]; then
 		break
 	fi
 done
