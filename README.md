@@ -6,6 +6,11 @@ Search engine scraper tool with BASH script.
 ## Dependency
 - curl (cli)
 
+## Available search engine
+- Ask.com
+- Search.yahoo.com
+- Bing.com
+
 ## Installation
 ```
 git clone https://github.com/zerobyte-id/SEcraper.git
